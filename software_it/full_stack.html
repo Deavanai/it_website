@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Full Stack Development Services</title>
+    <style>
+        /* General Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f5f5f5;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header, section {
+            padding: 20px;
+            margin-bottom: 10px;
+        }
+
+        /* Header Styles */
+        header {
+            background: #0078d7;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        header a {
+            font-size: 1.2rem;
+            font-weight: bold;
+            position: relative;
+            left: 600px;
+            bottom: 30px;
+            color: white;
+        }
+        header a:hover{
+            color: deeppink;
+        }
+
+        /* Services Section Styles */
+        .services {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            gap: 20px;
+            padding: 20px 10px;
+            background-image: url(b2.jpg);
+            width: 100%;
+            height: 100vh;
+        }
+
+        .service {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            width: 100%;
+            max-width: 300px;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            transition: box-shadow 0.3s ease;
+        }
+
+        .service:hover {
+            box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+        }
+
+        .service h3 {
+            color: #0078d7;
+            font-size: 1.5rem;
+            margin-bottom: 15px;
+        }
+
+        .service p {
+            font-size: 1rem;
+            color: #555;
+            line-height: 1.6;
+        }
+
+        /* About and Contact Styles */
+        .about, .contact {
+            background-color: #f9f9f9;
+            padding: 20px;
+            text-align: center;
+            margin-top: 20px;
+            border-top: 2px solid #ddd;
+        }
+
+        .about h2, .contact h2 {
+            color: #333;
+            font-size: 1.8rem;
+            margin-bottom: 10px;
+        }
+
+        .about p, .contact p {
+            font-size: 1rem;
+            color: #555;
+            line-height: 1.6;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .services {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Full Stack Development Services</h1>
+        <a href="http://127.0.0.1:5500/index.html"><u>/Home</u></a>
+    </header>
+
+    <!-- Services Section -->
+    <section class="services">
+        <!-- Python Full Stack -->
+        <div class="service">
+            <h3>Python Full Stack</h3>
+            <p>Develop powerful, data-driven applications using Python with frameworks like Django and Flask for web backends.</p>
+        </div>
+
+        <!-- Java Full Stack -->
+        <div class="service">
+            <h3>Java Full Stack</h3>
+            <p>Comprehensive Java full stack solutions using Spring Boot, Hibernate, and front-end libraries for scalable applications.</p>
+        </div>
+
+        <!-- MERN Stack -->
+        <div class="service">
+            <h3>MERN Stack</h3>
+            <p>Create modern, full stack JavaScript applications using MongoDB, Express, React, and Node.js for responsive web solutions.</p>
+        </div>
+
+        <!-- MongoDB -->
+        <div class="service">
+            <h3>MongoDB</h3>
+            <p>High-performance, flexible database solutions using MongoDB for real-time, scalable data management needs.</p>
+        </div>
+
+        <!-- ReactJS -->
+        <div class="service">
+            <h3>ReactJS Development</h3>
+            <p>Build dynamic, interactive user interfaces with ReactJS for highly responsive and engaging front-end applications.</p>
+        </div>
+
+        <!-- .NET Development -->
+        <div class="service">
+            <h3>.NET Development</h3>
+            <p>Develop robust enterprise applications using .NET framework and ASP.NET for secure, high-performance solutions.</p>
+        </div>
+    </section>
+</body>
+</html>

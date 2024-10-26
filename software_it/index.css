@@ -1,0 +1,351 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+html{
+  scroll-behavior: smooth;  
+}
+
+body {
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333;
+    padding: 20px;
+    color: white;
+    width: 1366px;
+}
+
+.logo h1 {
+    display: flex;
+    display: inline;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    display: flex;
+    display: inline;
+    margin: 0 15px;
+}
+
+.nav-links a {
+    display: flex;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-links a:hover {
+    color: #FFD700;
+}
+
+#home{
+    background-image: url(./ab1.jpg);
+    background-size: cover;
+    height: 768px;
+    width: 1366px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+#home h2::first-letter{
+    color: aquamarine;
+    font-size: 60px;
+}
+#home h2{
+    position: absolute;
+    left: 500px;
+    top: 330px;
+    font-size: 40px;
+    font-style: italic;
+}
+#home h1{
+    position: absolute;
+    left: 500px;
+    top: 400px;
+    font-style: italic;
+    display: flex;
+}
+#home p{
+    position: absolute;
+    top:440px;
+    left: 500px;
+    font-style: italic;
+}
+#about{
+    background-image: url(img3.jpg);
+    background-size: cover;
+    height: 768px;
+    width: 1366px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+#about h1{
+    font-size: 50px;
+    position: relative;
+    top: -291px;
+    left: 550px;
+    width: 261px;
+}
+#about p{
+    font-size: 30px;
+    position: relative;
+    top: 250px;
+    left: -330px;
+}
+#about img{
+    width: 400px;
+    height: 350px;
+    position: relative;
+    border-radius: 20px;
+    top: -40px;
+    left: 241px;
+}
+#service{
+    background-image: url(img4.jpg);
+    background-size: cover;
+    height: 768px;
+    width: 1366px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    overflow: hidden;
+}
+#service h1{
+    font-size: 50px;
+    position: absolute;
+    top: 1700px;
+}
+
+
+.card1 {
+    background-color: lavender;
+    color: #000000;
+    text-align: center;
+    border-radius: 20px;
+    height: 350px;
+    position: relative;
+    left: -410px;
+    top: 333px;
+    width: 400px;
+}
+.card1 i{
+    font-size: 70px;
+    color: blue;
+}
+.card2{
+   background-color: lavender;
+   color: #000000;
+   text-align: center;
+   border-radius: 20px;
+   width: 350px;
+   height: 350px;
+   position: relative;
+   top:-17px;
+    left: 25px;
+}
+.card2 i{
+    font-size: 70px;
+    color: blue;       
+}
+.card3{
+    background-color: lavender;
+    color: #000000;
+    text-align: center;
+    border-radius: 20px;
+    width: 350px;
+    height: 350px;
+    position: relative;
+    top: -367px;
+    left: 410px;
+}
+.card3 i{
+    font-size: 70px;
+    color: blue;
+}
+#program{
+    background-image: url(wn2.jpg);
+    background-size: cover;
+    height: 768px;
+    width: 1366px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    overflow: hidden;
+}
+#blog{
+    background-image: url(wn2.jpg);
+    background-size: cover;
+    height: 768px;
+    width: 1366px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    overflow: hidden;
+}
+#blog h2{
+    position: relative;
+    top: -336px;
+    left: 50px;
+    width: 150px;
+    font-size: 40px;
+}
+#blog h4 p{
+    position: relative;
+    top: -282px;
+    left: -97px;
+    width: 407px;
+}
+.adv{
+    background-color: lavender;
+    color: #000000  ;
+    width: 500px;
+    height: 400px;
+    position: relative;
+    top: 50px;
+    left: -449px;
+    border-radius: 20px;
+}
+.adv img{
+    width: 276px;
+    border-radius: 20px;
+}
+.adv2{
+    background-color: lavender;
+    color: #000000;
+    width: 500px;
+    height: 400px;
+    position: relative;
+    top: 50px;
+    left: -330px;
+    border-radius: 20px;
+ 
+}
+.adv2 img{
+    width: 276px;
+    border-radius: 20px;
+}
+.adv3{
+    background-color: lavender;
+    color: black;
+    width: 500px;
+    height: 400px;
+    position: relative;
+    top: 50px;
+    left: -200px;
+    border-radius: 20px;
+}
+.adv3 img{
+    width: 276px;
+    border-radius: 20px;
+}
+#contact{
+    background-color: darkgray ;
+    width: 1366px;
+    height: 700px;
+}
+.contact-me h1{
+    font-size: 50px;
+    text-align: center;
+}
+.contact-me p{
+    font-size: 20px;
+    text-align: center;
+}
+form{
+    float: right;
+    position: relative;
+    right: 100px;
+    top: 50px;
+    display: flex;
+    flex-direction: column;
+    padding: 2vw 4vw;
+    width: 80%;
+    max-width: 412px;
+    background: transparent;
+    border-radius: 10px;
+}
+form input,form textarea{
+    border: 0px;
+    margin: 15px 0;
+    padding: 15px;
+    outline: none;
+    font-size: 15px;
+    border-radius: 10px;
+    border: solid 2px lightpink;
+}
+.btn{
+    padding: 15px;
+    background: #000000;
+    color: white;
+    width: 200px;
+    margin: 0 0 0 3vw;
+    border-radius: 20px;
+    border: solid 2px salmon;
+}
+.email h2{
+    color: white;
+    display: flex;
+    position: relative;
+    top: 100px;
+    left: 470px;
+}
+.email h2 span{
+    position: relative;
+    right: 20px;
+    color: blue;
+    font-size: 30px;
+}
+.email h3{
+    color: white;
+    display: flex;
+    position: relative;
+    top: 120px;
+    left: 480px;
+}
+.email h3 span{
+    position: relative;
+    right: 30px;
+    font-size: 25px;
+    color: blue;
+}
+
+.info h3{
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    position: relative;
+    left: 30px;
+    top: 50px;
+}
+.info h4{
+    font-size: 15px;
+    position: relative;
+    left: 30px;
+    top: 50px;
+} 

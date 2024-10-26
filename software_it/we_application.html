@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Application Development Services</title>
+    <style>
+        /* General Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f4f7fa;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header, section {
+            padding: 20px;
+            margin-bottom: 10px;
+        }
+
+        /* Header Styles */
+        header {
+            background: #0066cc;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        header a {
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: white;
+            position: relative;
+            left: 600px;
+            bottom: 30px;
+        }
+        header a:hover{
+            color: deeppink;
+        }
+        .services{
+            background-image: url(wb2.jpg);
+            width: 100%;
+            height: 100vh;
+        }
+        .process{
+            width: 100%;
+            height: 100vh;
+            background-image: url(wb1.jpg);
+        }
+
+        /* Services and Process Sections */
+        .services, .process {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            gap: 20px;
+            padding: 20px 10px;
+        }
+
+        .card {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            width: 100%;
+            max-width: 300px;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            transition: box-shadow 0.3s ease;
+        }
+
+        .card:hover {
+            box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+        }
+
+        .card h3 {
+            color: #0066cc;
+            font-size: 1.5rem;
+            margin-bottom: 15px;
+        }
+
+        .card p {
+            font-size: 1rem;
+            color: #555;
+            line-height: 1.6;
+        }
+
+        /* About and Contact Styles */
+        .about, .contact {
+            background-color: #f9f9f9;
+            padding: 20px;
+            text-align: center;
+            margin-top: 20px;
+            border-top: 2px solid #ddd;
+        }
+
+        .about h2, .contact h2 {
+            color: #333;
+            font-size: 1.8rem;
+            margin-bottom: 10px;
+        }
+
+        .about p, .contact p {
+            font-size: 1rem;
+            color: #555;
+            line-height: 1.6;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .services, .process {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Web Application Development Services</h1>
+       <a href="http://127.0.0.1:5500/index.html#home"><u>/Home</u></a>
+    </header>
+
+    <!-- Services Section -->
+    <section class="services">
+        <!-- Web Application Development -->
+        <div class="card">
+            <h3>Web Application Development</h3>
+            <p>Building modern, responsive, and secure web applications tailored to your business needs.Application development can be defined as taking steps to build, test and deploy applications in a business setting. If a business or organization requires a specific type of application to be created, then the processes may differ.Every final type of application may follow similar steps. Still, depending on what type of final product is needed or what platform it is on, a developer needs to use a different methodology.</p>
+        </div>
+
+        <!-- Cloud Application Development -->
+        <div class="card">
+            <h3>Cloud Application Development</h3>
+            <p>Leverage the power of the cloud for scalable, secure, and accessible application solutions.Developing web applications includes making applications that can be accessed online and run in web browsers. HTML, CSS and JavaScript are the most common web technologies used to create these applications. They offer a versatile and platform-independent approach, as users can access them from various devices, including desktops, laptops, tablets and smartphone</p>
+        </div>
+
+        <!-- Cross-Platform Application Development -->
+        <div class="card">
+            <h3>Cross-Platform Application Development</h3>
+            <p>Develop applications that deliver a consistent experience across multiple platforms and devices.Developing cloud applications has several benefits. The infrastructure and resources of cloud computing platforms like Amazon Web Services (AWS) are accessible to developers. This allows for easy scalability, cost-effectiveness and high availability. Because cloud apps can use a variety of cloud services, including storage, databases and artificial intelligence, developers can concentrate </p>
+        </div>
+    </section>
+
+    <!-- Development Process Section -->
+    <section class="process">
+        <!-- Planning and Research -->
+        <div class="card">
+            <h3>Planning and Research</h3>
+            <p>Understanding requirements, researching the best solutions, and creating a project roadmap.</p>
+        </div>
+
+        <!-- Design and Prototyping -->
+        <div class="card">
+            <h3>Design and Prototyping</h3>
+            <p>Creating visually appealing and user-friendly designs with functional prototypes.</p>
+        </div>
+
+        <!-- Code Development -->
+        <div class="card">
+            <h3>Code Development</h3>
+            <p>Building robust application functionality with clean, maintainable code.</p>
+        </div>
+
+        <!-- Testing and Optimization -->
+        <div class="card">
+            <h3>Testing and Optimization</h3>
+            <p>Conducting rigorous testing to ensure performance, security, and compatibility across all devices.</p>
+        </div>
+
+        <!-- Release and Maintenance -->
+        <div class="card">
+            <h3>Release and Maintenance</h3>
+            <p>Deploying the application and providing continuous support and updates post-launch.</p>
+        </div>
+    </section>
+</body>
+</html>
